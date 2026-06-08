@@ -39,7 +39,7 @@
   </tr>
 </table>
 
-<p align="center"><i>"If it's not good, call it version 1.0"</i></p>
+<h3 align="center"><i>"If it's not good, call it version 1.0"</i></h3>
 
 <p align="center">
   <img src="assests/gifs/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" />
@@ -53,8 +53,7 @@
     <td width="50%" valign="top">
       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 16px; background: #0d1117; min-height: 120px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" fill="#8b949e" style="margin-right: 8px; vertical-align: middle; display: inline-block;"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V1.75C16 .783 15.217 0 14.25 0H4.5A3.999 3.999 0 0 0 1 4v11.75a.75.75 0 0 0 1.22.58l2.28-1.9 2.28 1.9A.75.75 0 0 0 8 15.75V4.5A1.5 1.5 0 0 0 6.5 3H4.5A1.5 1.5 0 0 0 3 4.5v10.572c-.403-.166-.74-.47-1-.872V2.5z"></path></svg>
-          <a href="https://github.com/NITHEESH-14/GRepcue" style="color: #58a6ff; text-decoration: none; font-weight: 600; font-size: 14px;">GRepcue</a>
+          <a href="https://github.com/NITHEESH-14/GRepcue"><img src="https://img.shields.io/badge/GRepcue-%23181717?style=flat-square&logo=github&logoColor=white" alt="GRepcue" /></a>
         </div>
         <p style="color: #8b949e; font-size: 12px; line-height: 1.5; margin: 0;">
           GitHub Repository Discovery CLI & MCP Server. Splits natural language queries into parallel searches and ranks results.
@@ -64,8 +63,7 @@
     <td width="50%" valign="top">
       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 16px; background: #0d1117; min-height: 120px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" fill="#8b949e" style="margin-right: 8px; vertical-align: middle; display: inline-block;"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V1.75C16 .783 15.217 0 14.25 0H4.5A3.999 3.999 0 0 0 1 4v11.75a.75.75 0 0 0 1.22.58l2.28-1.9 2.28 1.9A.75.75 0 0 0 8 15.75V4.5A1.5 1.5 0 0 0 6.5 3H4.5A1.5 1.5 0 0 0 3 4.5v10.572c-.403-.166-.74-.47-1-.872V2.5z"></path></svg>
-          <a href="https://github.com/NITHEESH-14/Coral" style="color: #58a6ff; text-decoration: none; font-weight: 600; font-size: 14px;">Coral</a>
+          <a href="https://github.com/NITHEESH-14/Coral"><img src="https://img.shields.io/badge/Coral-%23181717?style=flat-square&logo=github&logoColor=white" alt="Coral" /></a>
         </div>
         <p style="color: #8b949e; font-size: 12px; line-height: 1.5; margin: 0;">
           Locally-running agentic AI desktop assistant executing 45+ natural language commands with multi-LLM routing and OCR.
@@ -77,14 +75,13 @@
     <td width="50%" valign="top">
       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 16px; background: #0d1117; min-height: 120px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" fill="#8b949e" style="margin-right: 8px; vertical-align: middle; display: inline-block;"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V1.75C16 .783 15.217 0 14.25 0H4.5A3.999 3.999 0 0 0 1 4v11.75a.75.75 0 0 0 1.22.58l2.28-1.9 2.28 1.9A.75.75 0 0 0 8 15.75V4.5A1.5 1.5 0 0 0 6.5 3H4.5A1.5 1.5 0 0 0 3 4.5v10.572c-.403-.166-.74-.47-1-.872V2.5z"></path></svg>
-          <span style="color: #58a6ff; font-weight: 600; font-size: 14px;">AgriFuse</span>
+          <img src="https://img.shields.io/badge/AgriFuse-%23181717?style=flat-square&logo=github&logoColor=white" alt="AgriFuse" />
         </div>
         <p style="color: #8b949e; font-size: 12px; line-height: 1.5; margin: 0 0 12px 0;">
           Agricultural market platform for direct farmer-to-buyer transactions, APMC pricing, and LLaVA crop disease detection.
         </p>
         <div style="font-size: 12px; border-top: 1px solid #21262d; padding-top: 8px;">
-          <a href="https://affarmers.vercel.app" style="color: #58a6ff; text-decoration: none; margin-right: 12px; font-weight: 500;">User App</a>
+          <a href="https://affarmers.vercel.app" style="color: #58a6ff; text-decoration: none; margin-right: 12px; font-weight: 500;">User App, </a>
           <a href="https://afadmin.vercel.app" style="color: #58a6ff; text-decoration: none; font-weight: 500;">Admin App</a>
         </div>
       </div>
@@ -92,8 +89,7 @@
     <td width="50%" valign="top">
       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 16px; background: #0d1117; min-height: 120px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;">
         <div style="display: flex; align-items: center; margin-bottom: 12px;">
-          <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true" fill="#8b949e" style="margin-right: 8px; vertical-align: middle; display: inline-block;"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 0 0 1.5h2.5a2.25 2.25 0 0 0 2.25-2.25V1.75C16 .783 15.217 0 14.25 0H4.5A3.999 3.999 0 0 0 1 4v11.75a.75.75 0 0 0 1.22.58l2.28-1.9 2.28 1.9A.75.75 0 0 0 8 15.75V4.5A1.5 1.5 0 0 0 6.5 3H4.5A1.5 1.5 0 0 0 3 4.5v10.572c-.403-.166-.74-.47-1-.872V2.5z"></path></svg>
-          <a href="https://github.com/NITHEESH-14/CrisisSync" style="color: #58a6ff; text-decoration: none; font-weight: 600; font-size: 14px;">CrisisSync</a>
+          <a href="https://github.com/NITHEESH-14/CrisisSync"><img src="https://img.shields.io/badge/CrisisSync-%23181717?style=flat-square&logo=github&logoColor=white" alt="CrisisSync" /></a>
         </div>
         <p style="color: #8b949e; font-size: 12px; line-height: 1.5; margin: 0;">
           A collaborative crisis management and emergency response platform designed to coordinate resources and streamline communication in real-time.
@@ -108,11 +104,11 @@
 
 <table>
   <tr>
-    <td valign="middle" align="center" width="100">
-      <img src="assests/gifs/238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" width="80" />
+    <td valign="middle" align="center">
+      <img src="assests/gifs/238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" width="30" />
     </td>
     <td valign="middle">
-      <a href="https://www.linkedin.com/in/nitheeshcse/" target="_blank"><img src="assests/linkdin.jpg" height="35" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:nitheesh20066@gmail.com"><img src="https://img.shields.io/badge/Email-red?style=social&logo=gmail" alt="Email" /></a>
+      <a href="https://www.linkedin.com/in/nitheeshcse/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjMEE2NkMyIj48cGF0aCBkPSJNMy45IDEyYzAtMS43MSAxLjM5LTMuMSAzLjEtMy4xaDRWN0g3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1aDR2LTEuOUg3Yy0xLjcxIDAtMy4xLTEuMzktMy4xLTMuMXpNOCAxM2g4di0ySDh2MnptOS02aC00djEuOWg0YzEuNzEgMCAzLjEgMS4zOSAzLjEgMy4xcy0xLjM5IDMuMS0zLjEgMy4xaC00VjE3aDRjMi43NiAwIDUtMi4yNCA1LTVzLTIuMjQtNS01LTV6Ii8%2BPC9zdmc+" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:nitheesh20066@gmail.com"><img src="https://img.shields.io/badge/Email-red?style=social&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjRDE0ODM2Ij48cGF0aCBkPSJNMy45IDEyYzAtMS43MSAxLjM5LTMuMSAzLjEtMy4xaDRWN0g3Yy0yLjc2IDAtNSAyLjI0LTUgNXMyLjI0IDUgNSA1aDR2LTEuOUg3Yy0xLjcxIDAtMy4xLTEuMzktMy4xLTMuMXpNOCAxM2g4di0ySDh2MnptOS02aC00djEuOWg0YzEuNzEgMCAzLjEgMS4zOSAzLjEgMy4xcy0xLjM5IDMuMS0zLjEgMy4xaC00VjE3aDRjMi43NiAwIDUtMi4yNCA1LTVzLTIuMjQtNS01LTV6Ii8%2BPC9zdmc%2B" alt="Email" /></a>
     </td>
   </tr>
 </table>

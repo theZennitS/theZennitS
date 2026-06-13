@@ -200,6 +200,11 @@
   </tr>
 </table>
 
+## ~Profile Views
+
+<p align="center">
+  <img src="https://count.getloli.com/@ZennitS?name=ZennitS&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Visitor Counter" width="430" />
+</p>
 
 ## ~Connect with me
 
@@ -214,5 +219,7 @@
   </tr>
 </table>
 
+##
 ![Crazy GIF](assests/gifs/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)
+
 

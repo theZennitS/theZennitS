@@ -67,9 +67,15 @@ def main():
     right_pixel_path = get_pixel_path(492, streak_y, 347, 144, p=3)
     left_inset_path = get_pixel_path(15 + 6, 20 + 6, 327 - 12, 144 - 12, p=3)
     right_inset_path = get_pixel_path(492 + 6, streak_y + 6, 347 - 12, 144 - 12, p=3)
-    gif_path = r"c:\Users\R Nitheesh\Desktop\NITHEESH-14\assests\gifs\225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"
-    output_path_standard = r"c:\Users\R Nitheesh\Desktop\NITHEESH-14\assests\images\stats_banner.svg"
-    output_path_counter = r"c:\Users\R Nitheesh\Desktop\NITHEESH-14\assests\images\stats_banner_with_counter.svg"
+
+    # Resolve paths dynamically relative to this script's directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.abspath(os.path.join(script_dir, ".."))
+
+    gif_path = os.path.join(repo_root, "assests", "gifs", "225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif")
+    output_path_standard = os.path.join(repo_root, "assests", "images", "stats_banner.svg")
+    output_path_counter = os.path.join(repo_root, "assests", "images", "stats_banner_with_counter.svg")
+    profileviews_path = os.path.join(repo_root, "assests", "images", "Profileviews.png")
 
     # Generate current UTC timestamp
     last_updated_time = datetime.now(timezone.utc).strftime("%b %d, %Y %I:%M %p UTC")
@@ -123,7 +129,6 @@ def main():
         return
 
     # Base64 Encode Profile Views PNG
-    profileviews_path = r"c:\Users\R Nitheesh\Desktop\NITHEESH-14\assests\images\Profileviews.png"
     if not os.path.exists(profileviews_path):
         print(f"Error: Profileviews PNG not found at {profileviews_path}")
         return

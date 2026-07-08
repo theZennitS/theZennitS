@@ -156,12 +156,12 @@ def main():
     stats_svg = re.sub(r'font:\s*600\s+14px', 'font: 600 16px', stats_svg)
     stats_svg = re.sub(r'font:\s*600\s+18px', 'font: 600 20px', stats_svg)
 
-    # Increase font size inside elements of the streak SVG
-    streak_svg = re.sub(r"font-size=['\"]28px['\"]", "font-size='34px'", streak_svg)
-    streak_svg = re.sub(r"font-size=['\"]14px['\"]", "font-size='16.5px'", streak_svg)
-    streak_svg = re.sub(r"font-size=['\"]12px['\"]", "font-size='13.5px'", streak_svg)
-    streak_svg = re.sub(r"font-size:\s*34px;", "font-size: 40px;", streak_svg)
-    streak_svg = re.sub(r"font-size:\s*28px;", "font-size: 34px;", streak_svg)
+    # Increase font size inside elements of the streak SVG (slightly scaled down for fit)
+    streak_svg = re.sub(r"font-size=['\"]28px['\"]", "font-size='30px'", streak_svg)
+    streak_svg = re.sub(r"font-size=['\"]14px['\"]", "font-size='14.5px'", streak_svg)
+    streak_svg = re.sub(r"font-size=['\"]12px['\"]", "font-size='12px'", streak_svg)
+    streak_svg = re.sub(r"font-size:\s*34px;", "font-size: 36px;", streak_svg)
+    streak_svg = re.sub(r"font-size:\s*28px;", "font-size: 30px;", streak_svg)
 
     # Add solid black outlines to all text elements in the streak SVG for 100% readability on the GIF
     streak_svg = streak_svg.replace("stroke-width='0'", "stroke-width='3.5px' paint-order='stroke fill' stroke-linejoin='round'")
@@ -170,6 +170,9 @@ def main():
     # Add solid black outlines to all text elements in the GitHub stats SVG for 100% readability on the GIF
     stats_svg = stats_svg.replace("fill: #f8f8f2;", "fill: #f8f8f2; stroke: #000000; stroke-width: 3px; paint-order: stroke fill; stroke-linejoin: round;")
     stats_svg = stats_svg.replace("fill: #ff6e96;", "fill: #ff6e96; stroke: #000000; stroke-width: 3.5px; paint-order: stroke fill; stroke-linejoin: round;")
+
+    # Adjust stats values position to prevent overlapping and right-align them
+    stats_svg = stats_svg.replace('x="219.01"', 'x="270" text-anchor="end"')
 
     # Force visibility by default (ensure opacity is 1 so text shows in static environments like GitHub READMEs)
     stats_svg = stats_svg.replace("opacity: 0;", "opacity: 1;").replace("opacity:0;", "opacity:1;")
@@ -376,7 +379,7 @@ def main():
     <rect width="854" height="200" fill="url(#overlayGrad)" />
 
     <!-- Last Updated Timestamp & Custom Pixelated Lightning Bolt (Placed before the word "Last" and aligned to the right edge) -->
-    <g transform="translate(595, 20)">
+    <g transform="translate(560, 20)">
       <path d="M 3 0 H 9 V 3 H 12 V 6 H 9 V 21 H 6 V 18 H 3 V 15 H 6 V 12 H 0 V 9 H 3 V 6 H 6 V 3 H 3 Z" fill="#f1fa8c" stroke="#000000" stroke-width="1.5" stroke-linejoin="round" opacity="0.8" />
       <text x="20" y="15" text-anchor="start" fill="#f8f8f2" stroke="#000000" stroke-width="2.5" paint-order="stroke fill" stroke-linejoin="round" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" opacity="0.8">Last Updated: {last_updated_time}</text>
     </g>
@@ -420,7 +423,7 @@ def main():
     <rect width="854" height="200" fill="url(#overlayGrad)" />
 
     <!-- Last Updated Timestamp & Custom Pixelated Lightning Bolt (Placed before the word "Last" and aligned to the right edge) -->
-    <g transform="translate(595, 20)">
+    <g transform="translate(560, 20)">
       <path d="M 3 0 H 9 V 3 H 12 V 6 H 9 V 21 H 6 V 18 H 3 V 15 H 6 V 12 H 0 V 9 H 3 V 6 H 6 V 3 H 3 Z" fill="#f1fa8c" stroke="#000000" stroke-width="1.5" stroke-linejoin="round" opacity="0.8" />
       <text x="20" y="15" text-anchor="start" fill="#f8f8f2" stroke="#000000" stroke-width="2.5" paint-order="stroke fill" stroke-linejoin="round" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" opacity="0.8">Last Updated: {last_updated_time}</text>
     </g>

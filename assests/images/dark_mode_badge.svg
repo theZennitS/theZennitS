@@ -28,8 +28,6 @@
       }
     </style>
   </defs>
-  <!-- Background -->
-  <rect x="2" y="2" width="276" height="36" class="badge-bg" />
   
   <!-- Content (centered) -->
   <g transform="translate(140, 25)" text-anchor="middle">

@@ -173,7 +173,7 @@
 ## ~ Stats Dashboard
 
 <div align="center">
-  <img src="assests/images/contrib_heatmap.svg" width="100%" />
+  <img src="assests/images/contrib_heatmap.svg?v=2" width="100%" />
   <br/><br/>
   <img src="assests/images/stats_banner_with_counter.svg" width="100%" />
   <img src="https://komarev.com/ghpvc/?username=theZennitS&style=flat-square&color=blue&label=Profile+Views" alt="github" width="0" height="0" />

@@ -659,8 +659,8 @@ def generate_heatmap_svg(username, repo_root, encoded_font_regular="", encoded_f
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="164" viewBox="0 0 {width} 164" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
 <style>{font_css}
-  text.lbl {{ fill:#7d8590; font-size:11px; font-weight:600; font-family:'Minecraft', -apple-system, sans-serif !important; transform-box: fill-box; transform-origin: center; transform: scaleY(1.2); }}
-  text.total {{ fill:#e6edf3; font-size:14px; font-weight:bold; font-family:'Minecraft', -apple-system, sans-serif !important; transform-box: fill-box; transform-origin: left bottom; transform: scaleY(1.25); }}
+  text.lbl {{ fill:#7d8590; font-size:9px; font-weight:normal; font-family:'Minecraft', -apple-system, sans-serif !important; }}
+  text.total {{ fill:#e6edf3; font-size:10px; font-weight:normal; font-family:'Minecraft', -apple-system, sans-serif !important; }}
   .c {{ transform-box:fill-box; transform-origin:center; opacity:0; animation:pop 0.55s ease-out both; }}
   .g {{ animation:pop 0.55s ease-out both, flash 0.7000000000000001s ease-out both; }}
   @keyframes pop {{ 0%{{opacity:0;transform:scale(.2)}} 60%{{opacity:1;transform:scale(1.1)}} 100%{{opacity:1;transform:scale(1)}} }}

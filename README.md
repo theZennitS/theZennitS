@@ -116,7 +116,7 @@
   <img src="assests/gifs/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" />
 </p>
 
-## ~Top Repositories <span style="float: right; font-size: 0.5em; color: #8b949e; margin-top: 15px;">[Private repositories: <!-- PRIVATE_REPOS_COUNT -->4<!-- /PRIVATE_REPOS_COUNT -->]</span>
+## ~Top Repositories <span style="float: right; font-size: 0.5em; color: #8b949e; margin-top: 15px;">[Private repositories: <!-- PRIVATE_REPOS_COUNT -->5<!-- /PRIVATE_REPOS_COUNT -->]</span>
 
 <table>
   <tr>

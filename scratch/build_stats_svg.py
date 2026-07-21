@@ -659,12 +659,12 @@ def generate_heatmap_svg(username, repo_root, encoded_font_regular="", encoded_f
 
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="164" viewBox="0 0 {width} 164" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
 <style>{font_css}
-  text.lbl {{ fill:#7d8590; font-size:9px; font-weight:normal; font-family:'Minecraft', -apple-system, sans-serif !important; }}
-  text.total {{ fill:#e6edf3; font-size:10px; font-weight:normal; font-family:'Minecraft', -apple-system, sans-serif !important; }}
-  .c {{ transform-box:fill-box; transform-origin:center; opacity:0; animation:pop 0.6s ease-out both; }}
-  .g {{ transform-box:fill-box; transform-origin:center; opacity:0; animation:pop 0.6s ease-out both, shine-flow 4s ease-in-out infinite; }}
-  @keyframes pop {{ 0% {{ opacity:0; transform:scale(0.2); }} 60% {{ opacity:1; transform:scale(1.1); }} 100% {{ opacity:1; transform:scale(1); }} }}
-  @keyframes shine-flow {{ 0% {{ filter:brightness(1); }} 15% {{ filter:brightness(2.6); }} 30% {{ filter:brightness(1); }} 100% {{ filter:brightness(1); }} }}
+  text.lbl {{ fill:#7d8590; font-size:11px; font-weight:600; font-family:'Minecraft', -apple-system, sans-serif !important; }}
+  text.total {{ fill:#e6edf3; font-size:13px; font-weight:bold; font-family:'Minecraft', -apple-system, sans-serif !important; }}
+  .c {{ transform-box:fill-box; transform-origin:center; opacity:0; animation:pop 0.55s ease-out both; }}
+  .g {{ transform-box:fill-box; transform-origin:center; opacity:0; animation:pop 0.55s ease-out both, shine-flow 4s ease-in-out infinite; }}
+  @keyframes pop {{ 0%{{opacity:0;transform:scale(.2)}} 60%{{opacity:1;transform:scale(1.1)}} 100%{{opacity:1;transform:scale(1)}} }}
+  @keyframes shine-flow {{ 0%{{filter:brightness(1)}} 12%{{filter:brightness(2.4)}} 25%{{filter:brightness(1)}} 100%{{filter:brightness(1)}} }}
   @media (prefers-reduced-motion: reduce) {{ .c, .g {{ opacity:1 !important; transform:none !important; animation:none !important; }} }}
 </style>
 <rect width="{width}" height="164" fill="none"/>
